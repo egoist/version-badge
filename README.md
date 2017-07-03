@@ -18,6 +18,8 @@ Of course you can link the svg to anywhere like the npm page:
 # chalk <sup>[![version badge](https://version-badge.egoistian.com/npm/chalk.svg)](https://npmjs.com/package/chalk)</sup>
 ```
 
+> **Note:** To make this service keep working, you can [donate](https://github.com/egoist/donate) to support my work.
+
 ## Usage
 
 ### npm
