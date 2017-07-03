@@ -51,6 +51,12 @@ Examples:
 - https://version-badge.now.sh/gh/zeit/next.js.svg
 - https://version-badge.now.sh/gh/facebookincubator/create-react-app.svg?file=packages/create-react-app/package.json
 
+## Prior Art
+
+I made this service because following one does not support npm and mono repos.
+
+- [npm-version-badge](https://github.com/teelaunch/npm-version-badge)
+
 ## License
 
 MIT &copy; [EGOIST](github.com/EGOIST)
