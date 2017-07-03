@@ -26,7 +26,7 @@ Examples:
 
 - https://version-badge.now.sh/npm/vue.svg
 - https://version-badge.now.sh/npm/webpack.svg
-- https://version-badge.now.sh/npm/poi.svg?branch=next
+- https://version-badge.now.sh/npm/poi.svg?tag=next
 
 ### github
 
