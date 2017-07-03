@@ -20,5 +20,5 @@ app.get('/gh/:owner/:repo.svg', handleError(async (req, res) => {
   sendSVG(res, data[field])
 }))
 
-app.listen(3000)
+app.listen(3300)
 console.log('> Open http://localhost:3000')
