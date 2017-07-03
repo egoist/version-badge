@@ -3,7 +3,7 @@ const measureWidth = require('./measure-width')
 exports.sendSVG = (res, version) => {
   const str = `v${version}`
   res.type('svg')
-  res.end(`<svg xmlns="http://www.w3.org/2000/svg" width="${measureWidth(str)}" height="10"><text y="9" font-size="12" fill="#2d2d2d" font-family="Helvetica">${str}</text></svg>
+  res.end(`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${measureWidth(str)}" height="10"><text y="9" font-size="12" fill="#2d2d2d" font-family="Helvetica">${str}</text></svg>
   `)
 }
 
