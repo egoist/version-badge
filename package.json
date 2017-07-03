@@ -6,9 +6,6 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "now": {
-    "alias": "version-badge.now.sh"
-  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
