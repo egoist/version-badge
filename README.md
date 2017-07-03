@@ -12,6 +12,12 @@ Designed to be put right next to your project title:
 
 See the title of this README to get the idea :)
 
+Of course you can link the svg to anywhere like the npm page:
+
+```markdown
+# chalk <sup>[![version badge](https://version-badge.now.sh/npm/chalk.svg)](https://npmjs.com/package/chalk)</sup>
+```
+
 ## Usage
 
 ### npm
