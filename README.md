@@ -53,7 +53,7 @@ Examples:
 
 ## Prior Art
 
-I made this service because following one does not support npm and mono repos.
+I made this service because following one does not support npm (directly) and mono repos.
 
 - [npm-version-badge](https://github.com/teelaunch/npm-version-badge)
 
