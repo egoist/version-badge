@@ -1,0 +1,19 @@
+{
+  "name": "version-badge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "now": {
+    "alias": "version-badge.now.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "lru-cache": "^4.1.1",
+    "pdfkit": "^0.8.3"
+  }
+}
