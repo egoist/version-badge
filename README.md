@@ -26,7 +26,7 @@ GET `/npm/:name.svg`
 
 Query:
 
-- `tag`: Release tag, eg: `tag=beta`
+- `tag`: Default `latest`. Release tag, eg: `beta`
 
 Examples: 
 
