@@ -1,4 +1,4 @@
-# version-badge <sup>![version badge](https://version-badge.egoist.moe/gh/egoist/version-badge.svg)</sup>
+# version-badge <sup>![version badge](https://version-badge.egoist.moe/gh/egoist/version-badge.svg?v=2)</sup>
 
 > Display a version badge.
 
