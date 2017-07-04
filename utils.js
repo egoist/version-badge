@@ -23,6 +23,6 @@ exports.handleError = fn => {
 
 exports.cacheControl = (req, res, next) => {
   const { maxAge = 300 } = req.query
-  res.set('Cache-Control', `public, max-age=${maxAge}`)
+  res.set('Cache-Control', `max-age=${maxAge}`)
   next()
 }
