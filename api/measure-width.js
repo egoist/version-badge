@@ -1,7 +1,7 @@
 const PDFDocument = require('pdfkit')
 const cache = require('lru-cache')({
   max: 128 * 1024 * 1024,
-	length: src => src.length
+  length: src => src.length
 })
 
 const doc = new PDFDocument({ size: 'A4', layout: 'landscape' })

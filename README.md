@@ -1,4 +1,4 @@
-# version-badge <sup>![version badge](https://v.egoist.moe/gh/egoist/version-badge.svg)</sup>
+# version-badge <sup>![version badge](https://version-badge.now.sh/github/egoist/version-badge)</sup>
 
 > Display a version badge.
 
@@ -7,7 +7,7 @@
 Designed to be put right next to your project title:
 
 ```markdown
-# chalk <sup>![version badge](https://v.egoist.moe/npm/chalk.svg)</sup>
+# chalk <sup>![version badge](https://version-badge.now.sh/npm/chalk)</sup>
 ```
 
 See the title of this README to get the idea :)
@@ -15,7 +15,7 @@ See the title of this README to get the idea :)
 Of course you can link the svg to anywhere like the npm page:
 
 ```markdown
-# chalk <sup>[![version badge](https://v.egoist.moe/npm/chalk.svg)](https://npmjs.com/package/chalk)</sup>
+# chalk <sup>[![version badge](version-badge.now.sh/npm/chalk)](https://npmjs.com/package/chalk)</sup>
 ```
 
 > **Note:** To make this service keep working, you can [donate](https://github.com/egoist/donate) to support my work.
@@ -32,15 +32,15 @@ Query:
 
 Examples: 
 
-- https://v.egoist.moe/npm/vue.svg
-- https://v.egoist.moe/npm/webpack.svg
-- https://v.egoist.moe/npm/poi.svg?tag=next
+- https://version-badge.now.sh/npm/vue
+- https://version-badge.now.sh/npm/webpack
+- https://version-badge.now.sh/npm/poi?tag=next
 
 ### github
 
 Directly get the version from a file that's hosted on GitHub:
 
-GET `/gh/:owner/:repo.svg`
+GET `/github/:owner/:repo`
 
 Query:
 
@@ -50,8 +50,8 @@ Query:
 
 Examples:
 
-- https://v.egoist.moe/gh/zeit/next.js.svg
-- https://v.egoist.moe/gh/facebookincubator/create-react-app.svg?file=packages/create-react-app/package.json
+- https://version-badge.now.sh/github/zeit/next.js
+- https://version-badge.now.sh/github/facebookincubator/create-react-app?file=packages/create-react-app/package.json
 
 ## Prior Art
 

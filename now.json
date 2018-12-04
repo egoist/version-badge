@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "alias": ["version-badge.now.sh"],
+  "builds": [
+    {
+      "src": "api/*/index.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/npm/([^/]+)",
+      "dest": "/api/npm?name=$1"
+    },
+    {
+      "src": "/github/([^/]+)/([^/]+)",
+      "dest": "/api/github?owner=$1&repo=$2"
+    }
+  ]
+}
