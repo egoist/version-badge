@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["version-badge.egoist.sh", "version-badge.egoist.sh"],
+  "alias": ["version-badge.now.sh", "version-badge.egoist.sh"],
   "builds": [
     {
       "src": "api/*/index.js",
@@ -17,8 +17,16 @@
       "dest": "/api/github?owner=$1&repo=$2"
     },
     {
+      "src": "/crate/(.+)",
+      "dest": "/api/crate?name=$1"
+    },
+    {
       "src": "/",
       "dest": "/api/home"
+    },
+    {
+      "src": "/favicon.ico",
+      "desc": "/api/404"
     }
   ]
 }

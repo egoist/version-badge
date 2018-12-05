@@ -53,6 +53,15 @@ Examples:
 - https://version-badge.egoist.sh/github/zeit/next.js
 - https://version-badge.egoist.sh/github/facebookincubator/create-react-app?file=packages/create-react-app/package.json
 
+### rust crate
+
+GET `/crate/:name`
+
+Examples: 
+
+- https://version-badge.egoist.sh/crate/rand
+- https://version-badge.egoist.sh/crate/clap
+
 ## Prior Art
 
 I made this service because following one does not support npm (directly) and mono repos.
