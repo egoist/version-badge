@@ -26,7 +26,7 @@
     },
     {
       "src": "/favicon.ico",
-      "desc": "/api/404"
+      "dest": "/api/404"
     }
   ]
 }
