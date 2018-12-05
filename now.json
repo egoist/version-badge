@@ -9,7 +9,7 @@
   ],
   "routes": [
     {
-      "src": "/npm/([^/]+)",
+      "src": "/npm/(.+)",
       "dest": "/api/npm?name=$1"
     },
     {
