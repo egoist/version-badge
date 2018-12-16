@@ -17,6 +17,14 @@
       "dest": "/api/npm?name=$1"
     },
     {
+      "src": "/github/([^/]+)/([^/]+)\\.svg$",
+      "dest": "/api/github?owner=$1&repo=$2"
+    },
+    {
+      "src": "/gh/([^/]+)/([^/]+)\\.svg$",
+      "dest": "/api/github?owner=$1&repo=$2"
+    },
+    {
       "src": "/github/([^/]+)/([^/]+)",
       "dest": "/api/github?owner=$1&repo=$2"
     },
