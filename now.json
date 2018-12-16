@@ -9,8 +9,8 @@
   ],
   "routes": [
     {
-      "src": "/(.+)\\.svg$",
-      "dest": "/$1"
+      "src": "/npm/(.+)\\.svg$",
+      "dest": "/api/npm?name=$1"
     },
     {
       "src": "/npm/(.+)",
