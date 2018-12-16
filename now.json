@@ -9,19 +9,23 @@
   ],
   "routes": [
     {
-      "src": "/npm/(.+)(\\.svg)?$",
+      "src": "/(.+)\\.svg$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/npm/(.+)",
       "dest": "/api/npm?name=$1"
     },
     {
-      "src": "/github/([^/]+)/([^/]+)(\\.svg)?$",
+      "src": "/github/([^/]+)/([^/]+)",
       "dest": "/api/github?owner=$1&repo=$2"
     },
     {
-      "src": "/gh/([^/]+)/([^/]+)(\\.svg)?$",
+      "src": "/gh/([^/]+)/([^/]+)",
       "dest": "/api/github?owner=$1&repo=$2"
     },
     {
-      "src": "/crate/(.+)(\\.svg)?$",
+      "src": "/crate/(.+)",
       "dest": "/api/crate?name=$1"
     },
     {
