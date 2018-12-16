@@ -40,7 +40,8 @@ Examples:
 
 Directly get the version from a file that's hosted on GitHub:
 
-GET `/github/:owner/:repo`
+GET `/github/:owner/:repo`<br>
+Alias `/gh/:owner/:repo`
 
 Query:
 
