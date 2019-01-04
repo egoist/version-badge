@@ -37,6 +37,10 @@
       "dest": "/api/crate?name=$1"
     },
     {
+      "src": "/text",
+      "dest": "/api/text"
+    },
+    {
       "src": "/",
       "dest": "/api/home"
     },

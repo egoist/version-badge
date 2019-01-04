@@ -63,6 +63,15 @@ Examples:
 - https://version-badge.egoist.sh/crate/rand
 - https://version-badge.egoist.sh/crate/clap
 
+### text
+
+GET `/text?text=random_text`
+
+Examples: 
+
+- https://version-badge.egoist.sh/text?text=beta
+- https://version-badge.egoist.sh/text?text=coming%20soon
+
 ## Prior Art
 
 I made this service because following one does not support npm (directly) and mono repos.
