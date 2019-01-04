@@ -7,5 +7,5 @@ module.exports = handleError(async (req, res) => {
     query: { name, tag = 'latest' }
   } = parse(req.url, true)
   const { data } = await axios.get(`https://registry.npmjs.org/${name}`)
-  sendSVG(res, data['dist-tags'][tag])
+  sendSVG(res, `v${data['dist-tags'][tag]}`)
 })

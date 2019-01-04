@@ -15,5 +15,5 @@ module.exports = handleError(async (req, res) => {
   const { data } = await axios.get(
     `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${file}`
   )
-  sendSVG(res, data[field])
+  sendSVG(res, `v${data[field]}`)
 })

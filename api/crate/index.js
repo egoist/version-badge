@@ -7,5 +7,5 @@ module.exports = handleError(async (req, res) => {
     query: { name }
   } = parse(req.url, true)
   const { data } = await axios.get(`https://crates.io/api/v1/crates/${name}`)
-  sendSVG(res, data.crate.max_version)
+  sendSVG(res, `v${data.crate.max_version}`)
 })
