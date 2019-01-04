@@ -9,5 +9,8 @@
     "lru-cache": "^4.1.1",
     "marked": "^0.5.2",
     "pdfkit": "^0.8.3"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.2"
   }
 }

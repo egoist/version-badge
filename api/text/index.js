@@ -1,9 +1,9 @@
 const { parse } = require('url')
-const { sendSVG, handleError } = require('../utils')
+const { sendSVG, handleError, escape } = require('../utils')
 
 module.exports = handleError(async (req, res) => {
   const {
-    query: { text }
+    query: { text = '' }
   } = parse(req.url, true)
-  sendSVG(res, text)
+  sendSVG(res, escape(text))
 })
