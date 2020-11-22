@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "alias": ["version-badge.now.sh", "version-badge.egoist.sh", "v.egoist.moe", "version-badge.egoist.moe"],
+  "alias": ["version-badge.now.sh", "version-badge.egoist.sh"],
   "builds": [
     {
       "src": "api/*/index.js",
